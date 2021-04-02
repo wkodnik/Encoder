@@ -3,7 +3,6 @@
 ////                                                                                  ////
 ////                 MODBUS protocol driver for serial communications.                ////
 ////                                                                                  ////
-////  Refer to documentation at http://www.modbus.org for more information on MODBUS. ////
 ////                                                                                  ////
 //////////////////////////////////////////////////////////////////////////////////////////
 ////                                                                                  ////
@@ -163,14 +162,6 @@
 ////  GATEWAY_PATH_UNAVAILABLE, GATEWAY_TARGET_NO_RESPONSE                            ////
 ////                                                                                  ////
 //////////////////////////////////////////////////////////////////////////////////////////
-////                (C) Copyright 1996, 2006 Custom Computer Services                 ////
-////        This source code may only be used by licensed users of the CCS            ////
-////        C compiler.  This source code may only be distributed to other            ////
-////        licensed users of the CCS C compiler.  No other use,                      ////
-////        reproduction or distribution is permitted without written                 ////
-////        permission.  Derivative programs created using this software              ////
-////        in object code form are not restricted in any way.                        ////
-//////////////////////////////////////////////////////////////////////////////////////////
 
 /*Some defines so we can use identifiers to set things up*/
 #define MODBUS_TYPE_MASTER 99999
@@ -309,7 +300,7 @@ struct
    int8 data[MODBUS_SERIAL_RX_BUFFER_SIZE]; //data of the message received
 } modbus_rx;
 
-/* Table of CRC values for high–order byte */
+/* Table of CRC values for highÂ–order byte */
 const unsigned char modbus_auchCRCHi[] = {
 0x00,0xC1,0x81,0x40,0x01,0xC0,0x80,0x41,0x01,0xC0,0x80,0x41,0x00,0xC1,0x81,
 0x40,0x01,0xC0,0x80,0x41,0x00,0xC1,0x81,0x40,0x00,0xC1,0x81,0x40,0x01,0xC0,
@@ -331,7 +322,7 @@ const unsigned char modbus_auchCRCHi[] = {
 0x40
 };
 
-/* Table of CRC values for low–order byte */
+/* Table of CRC values for lowÂ–order byte */
 const char modbus_auchCRCLo[] = {
 0x00,0xC0,0xC1,0x01,0xC3,0x03,0x02,0xC2,0xC6,0x06,0x07,0xC7,0x05,0xC5,0xC4,
 0x04,0xCC,0x0C,0x0D,0xCD,0x0F,0xCF,0xCE,0x0E,0x0A,0xCA,0xCB,0x0B,0xC9,0x09,
