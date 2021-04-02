@@ -1,0 +1,9 @@
+>>> Warning 216 "main.c" Line 415(1,2): Interrupts disabled during call to prevent re-entrancy:  (can_set_id)
+>>> Warning 216 "main.c" Line 415(1,2): Interrupts disabled during call to prevent re-entrancy:  (modbus_calc_crc)
+>>> Warning 202 "main.c" Line 46(13,18): Variable never used:   tx_id
+>>> Warning 202 "main.c" Line 62(6,27): Variable never used:   ScaleThrowOut_EN_Open
+>>> Warning 202 "main.c" Line 63(6,28): Variable never used:   ScaleThrowOut_EN_Close
+>>> Warning 202 "main.c" Line 65(6,19): Variable never used:   ScaleVibro_EN
+      Memory usage:   ROM=31%      RAM=40% - 44%
+      0 Errors,  6 Warnings.
+Build Successful.

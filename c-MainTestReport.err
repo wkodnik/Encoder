@@ -1,0 +1,6 @@
+>>> Warning 216 "main.c" Line 504(1,2): Interrupts disabled during call to prevent re-entrancy:  (can_set_id)
+>>> Warning 216 "main.c" Line 504(1,2): Interrupts disabled during call to prevent re-entrancy:  (modbus_calc_crc)
+>>> Warning 216 "main.c" Line 504(1,2): Interrupts disabled during call to prevent re-entrancy:  (can_putd)
+      Memory usage:   ROM=35%      RAM=41% - 45%
+      0 Errors,  3 Warnings.
+Build Successful.
