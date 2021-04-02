@@ -66,15 +66,6 @@
 ////     can_b6_putd                                                   ////
 ////     can_b7_putd - place data in a specific buffer                  ////
 ////                                                                  ////
-//// PIN_B3 is CANRX, and PIN_B2 is CANTX.  You will need a CAN      ////
-//// transeiver to connect these pins to CANH and CANL bus lines.    ////
-////                                                                 ////
-//// CCS provides an example, ex_can.c, which shows how to use this  ////
-//// library.                                                        ////
-////                                                                  ////
-//// * Designates functions that work in legacy mode                 ////
-////                                                                 ////
-////                                                                 ////
 /////////////////////////////////////////////////////////////////////////
 
 
